@@ -1,0 +1,16 @@
+﻿<Window x:Class="Filesharemapping_Tool.Help"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Filesharemapping_Tool"
+        mc:Ignorable="d"
+        Title="Help!" Height="130" Width="370"
+        ResizeMode="CanMinimize" >
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Label Content="If you encounter any problems, please contact the ISD!&#xD;&#xA;&#xD;&#xA;Phone: 0800 10 20 30 30&#xD;&#xA;Mail: support@aldi-nord.de" HorizontalAlignment="Left" Margin="10,10,-18,0" VerticalAlignment="Top" Width="372" Height="81"/>
+    </Grid>
+</Window>
